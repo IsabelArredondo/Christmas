@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", function(){
     const audio = document.getElementById("audio");
 
     let audioArray = [ //audioArray contains all the songs in an array.
-        "static/audio/Bill Evans - Skating In Central Park.mp3",
-        "static/audio/Frank Sinatra - Have Yourself A Merry Little Christmas.mp3",
-        "static/audio/Michael Bublé - It's Beginning To Look A Lot Like Christmas.mp3",
-        "static/audio/The Drifters - White Christmas.mp3"
+        "my_flask_app/static/audio/Bill Evans - Skating In Central Park.mp3",
+        "my_flask_app/static/audio/Frank Sinatra - Have Yourself A Merry Little Christmas.mp3",
+        "my_flask_app/static/audio/Michael Bublé - It's Beginning To Look A Lot Like Christmas.mp3",
+        "my_flask_app/static/audio/The Drifters - White Christmas.mp3"
     ]
 
     let currentAudioIndex = 0 //to start with first song in the list 'audioArray'
